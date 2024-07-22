@@ -1,0 +1,260 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .wrapper {
+        width: 50%;
+        margin: auto;
+    }
+    .sec-1-card{
+        color: #fff;
+        width: 34%;
+        text-transform: uppercase;
+    }
+    .sec-1-card > p{
+        font-size: 2.2rem;
+    }
+    .sec-1-card h1{
+        font-size: 4.4rem;
+        border-bottom: 6px solid #fff;
+        padding-bottom: 10px;
+    }
+    .sec-1-icons{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        line-height: 2;
+        margin-top: 6%;
+    }
+    .sec-1-icon i{
+        font-size: 2rem;
+    }
+    .sec-header {
+        background-image: url('./img/section1.jpg');
+        background-size: cover;
+        min-height: 84vh;
+        /* min-height: 100vh; */
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        padding-left: 27%;
+        padding-top: 90px;
+    }
+    .sec2-Help .flex {
+        display: flex;
+    }
+    .sec2-Help {
+        background-color: rgb(236, 240, 246);
+    }
+    .headings {
+        padding: 10% 0;
+        text-align: center;
+    }
+    .headings h2 {
+        font-size: 2rem;
+        padding: 2% 0;
+    }
+    .headings p{
+        padding: 1% 0 2%;
+    }
+    .sec-3{
+        display: flex;
+        margin: 3% auto;
+        column-gap: 2rem;
+    }
+    .away-left-card,
+    .away-right-card {
+        width: 49%;
+    }
+    .card-up-img {
+        background-image: url('img/section2a\ 5c.jpg');
+        height: 20em;
+    }
+    .card-down-img {
+        background-image: url('img/section2b.jpg');
+        height: 20em;
+    }
+    h2,
+    p,
+    .btn-booknow,
+    .btn-callus {
+        justify-content: center;
+        align-items: center;
+    }
+    .column-quality {
+        flex: 49%;
+        padding: 5px;
+    }
+    .card-down p {
+        padding: 30px 0 30px 68px;
+    }
+    .card-up h2 {
+        padding: 1em 1em 0em;
+    }
+    .card-up h3 {
+        padding: 0.5em 1.3em 2em
+    }
+    .sec4-best-quality-text {
+        background-image: url('./img/section3B.jpg');
+    }
+    .sec4-best-quality-text .best-left {
+        background-image: url('./img/section3L.png');
+        width: 49%;
+        height: 28em;
+        background-size: 102%;
+        background-repeat: no-repeat;
+    }
+    .sec4-best-quality-text .best-right {
+        padding: 6em 0px;
+    }
+    .best-right h2 {
+        padding-bottom: 0.5em;
+        border-bottom: 5px solid orangered;
+        font-size: 2.8em;
+        word-spacing: 1px;
+        color: blue;
+    }
+    .best-right p {
+        padding: 1em 0 0.5em;
+    }
+    .column-quality .best-left {
+        background-image: url('img/billionphotos1079319min.png');
+        width: 49vw;
+        height: 100em;
+    }
+    .sec4-best-quality-text .flex {
+        display: flex;
+        column-gap: 1em;
+        display: flex;
+        gap: 4em;
+        background-size: cover;
+        position: relative;
+    }
+    .column-quality,
+    .column-services {
+        flex: 45%;
+        padding: 5px;
+    }
+    .sec3-help-right-away,
+    .sec4-best-quality-text,
+    .sec6-plumbing-services>* {
+        flex: 1;
+    }
+    .column-services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sec5-Help .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+    .sec5-Help {
+        padding: 2em;
+    }
+    .sec5-Help h2 {
+        padding-bottom: 1em;
+    }
+    .sec5-Help .services {
+        flex: 33.33%;
+        padding-bottom: 2em;
+    }
+    .dot {
+        height: 70px;
+        width: 70px;
+        background-color: orangered;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+    .dot > i{
+        font-size: 1.4rem;
+        color: #fff;
+    }
+    .sec6-plumbing-services {
+        padding: 6em 0;
+    }
+    .sec6-plumbing-services .flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .plumbing-left {
+        color: white;
+    }
+    .plumbing-left h2 {
+        font-size: 4em;
+    }
+    .plumbing-left p {
+        padding-bottom: 4px;
+    }
+    .plumbing-left span {
+        font-size: 4em;
+        padding: 1px 7px 0
+    }
+    .right-text {
+        width: 49vw;
+        background-color: bisque;
+    }
+    .sec6-plumbing-services {
+        background-color: blue;
+    }
+    .services p {
+        padding-right: 10px;
+    }
+    .sec6-plumbing-services .flex .plumbing-right img {
+        width: 130px;
+        background: rebeccapurple;
+        color: white;
+    }
+    .flex .services h3 {
+        padding-bottom: 1em;
+    }
+    .plumbing-right {
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .sec7-todo-list .flex {
+        display: flex;
+        padding: 4em;
+    }
+    .todo-list {
+        padding: 3em 0;
+    }
+    .todo-list h2 {
+        padding-bottom: 0.9em;
+    }
+    .todo-list p {
+        padding-bottom: 0.9em;
+        font-size: medium;
+    }
+    .sec8-footer {
+        background-color: black;
+        color: white
+    }
+    .created span {
+        color: blue;
+    }
+    .btn-booknow {
+        background-color: orangered;
+        color: white;
+        padding: 10px 18px;
+        border: none;
+    }
+    h3 span {
+        color: orangered;
+    }
+    .btn-callus {
+        background-color: white;
+        padding: 10px 18px;
+    }
+    .todo-list,
+    .editing, .created{
+        padding: 5% 0;
+        text-align: center;
+    }
